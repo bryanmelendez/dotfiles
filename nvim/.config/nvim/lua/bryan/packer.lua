@@ -54,11 +54,11 @@ use ({
 --       { "<c-\\>", "<cmd><C-U>TmuxNavigatePrevious<cr>" },
 --   },
     config = function()
-        vim.keymap.set('n', '<c-h>', ':<C-U>TmuxNavigateLeft<cr>')
-        vim.keymap.set('n', '<c-j>', ':<C-U>TmuxNavigateDown<cr>')
-        vim.keymap.set('n', '<c-k>', ':<C-U>TmuxNavigateUp<cr>')
-        vim.keymap.set('n', '<c-l>', ':<C-U>TmuxNavigateRight<cr>')
-        vim.keymap.set('n', '<c-\\>', ':TmuxNavigatePrevious<cr>')
+        vim.keymap.set('n', '<M-h>', ':<C-U>TmuxNavigateLeft<cr>')
+        vim.keymap.set('n', '<M-j>', ':<C-U>TmuxNavigateDown<cr>')
+        vim.keymap.set('n', '<M-k>', ':<C-U>TmuxNavigateUp<cr>')
+        vim.keymap.set('n', '<M-l>', ':<C-U>TmuxNavigateRight<cr>')
+        vim.keymap.set('n', '<M-\\>', ':TmuxNavigatePrevious<cr>')
     end
 })
 
