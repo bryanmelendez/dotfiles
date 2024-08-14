@@ -1,0 +1,18 @@
+intern=eDP-1
+extern=DP-1
+
+if xrandr | grep "$extern disconnected"; then
+    xrandr --output "$extern" --off --output "$intern" --auto
+    DPI=192
+    SCALE=2
+else
+    xrandr --output "$intern" --off --output "$extern" --auto
+    DPI=92
+    SCALE=1
+fi
+
+# dynamically change the config files depending on if a monitor is connected
+sed -i "s/^Xft.dpi: .*/Xft.dpi: $DPI/" ~/.Xresources
+sed -i "s/^WINIT_X11_SCALE_FACTOR = .*/WINIT_X11_SCALE_FACTOR = '$SCALE'/" ~/.config/alacritty/alacritty.toml
+
+xrdb -merge ~/.Xresources
