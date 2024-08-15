@@ -67,12 +67,37 @@ use {
     requires = { 'nvim-tree/nvim-web-devicons', opt = true },
 }
 
+-- markdown rendering (not using currently)
+-- use({
+--     'MeanderingProgrammer/render-markdown.nvim',
+--     after = { 'nvim-treesitter' },
+--     requires = { 'echasnovski/mini.nvim', opt = true }, -- if you use the mini.nvim suite
+--     -- requires = { 'echasnovski/mini.icons', opt = true }, -- if you use standalone mini plugins
+--     -- requires = { 'nvim-tree/nvim-web-devicons', opt = true }, -- if you prefer nvim-web-devicons
+-- })
+
+-- obsidian integration
 use({
-    'MeanderingProgrammer/render-markdown.nvim',
-    after = { 'nvim-treesitter' },
-    requires = { 'echasnovski/mini.nvim', opt = true }, -- if you use the mini.nvim suite
-    -- requires = { 'echasnovski/mini.icons', opt = true }, -- if you use standalone mini plugins
-    -- requires = { 'nvim-tree/nvim-web-devicons', opt = true }, -- if you prefer nvim-web-devicons
+    "epwalsh/obsidian.nvim",
+    tag = "*",  -- recommended, use latest release instead of latest commit
+    requires = {
+        -- Required.
+        "nvim-lua/plenary.nvim",
+    },
+    config = function()
+        require("obsidian").setup({
+            workspaces = {
+                {
+                    name = "notes",
+                    path = "/home/bryan/Documents/notes",
+                },
+                -- {
+                --     name = "work",
+                --     path = "~/vaults/work",
+                -- },   
+            },
+        })
+    end,
 })
 
 -- stable version
