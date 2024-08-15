@@ -1,4 +1,4 @@
-# Use
+# How to use 
 
 - GNU Stow to create the symlinks
 - clone tpm repo
