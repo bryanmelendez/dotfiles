@@ -91,10 +91,10 @@ use({
                     name = "notes",
                     path = "/home/bryan/Documents/notes",
                 },
-                -- {
-                --     name = "work",
-                --     path = "~/vaults/work",
-                -- },   
+                {
+                    name = "projects",
+                    path = "/home/bryan/projects",
+                },   
             },
         })
     end,
