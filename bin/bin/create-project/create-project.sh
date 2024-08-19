@@ -6,3 +6,5 @@ mkdir build
 mkdir src
 touch src/main.c
 cp ~/bin/create-project/CMakeLists.txt . 
+
+echo 'Project created!'

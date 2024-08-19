@@ -6,6 +6,7 @@
 [[ $- != *i* ]] && return
 
 # aliased scripts
+alias create-project='/home/bryan/bin/create-project/create-project.sh'
 alias note='/home/bryan/bin/note.sh'
 alias log='/home/bryan/bin/log.sh'
 alias ?='/home/bryan/bin/duck.sh'
