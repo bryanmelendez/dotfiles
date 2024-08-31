@@ -6,3 +6,6 @@
 - install packer before opening nvim
 - install fzf
 
+# GTK (GNOME Theme)
+- Theme: https://github.com/vinceliuice/WhiteSur-gtk-theme
+- Icons: https://github.com/vinceliuice/Colloid-icon-theme
