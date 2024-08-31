@@ -1,4 +1,6 @@
-(move this dotfiles repo when i make it)
+# Hyprland
+![arch_hyprland](https://github.com/user-attachments/assets/68791cd6-f843-4f0b-80ce-d2e63586ca05)
+
 
 ### Packages
     hyprland
