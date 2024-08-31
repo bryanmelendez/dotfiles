@@ -14,6 +14,8 @@ alias get_idf='. $HOME/esp/esp-idf/export.sh'
 alias idf_new_project='. ~/bin/idf_new_project.sh'
 alias pomo='go/bin/pomo'
 
+alias r='ranger'
+
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
@@ -25,3 +27,5 @@ eval "$(fzf --bash)"
 export sync='/home/bryan/Documents/sync'
 export notes='/home/bryan/Documents/notes'
 export PICO_SDK_PATH=/home/bryan/pico/pico-sdk
+
+export EDITOR='nvim'
