@@ -9,7 +9,8 @@ syncthing \
 alacritty \
 firefox \
 tmux \
-ranger
+ranger \
+foliate
 
 # essential util packages
 sudo pacman -S --needed \
@@ -20,7 +21,8 @@ valgrind \
 neofetch \
 stow \
 samba \
-avahi
+avahi \
+man-db
 
 # Check if yay is installed
 if pacman -Q "yay" &> /dev/null; then
@@ -31,7 +33,7 @@ fi
 
 # aur packages
 yay -S --needed \
-extension-manager \
+todoist-appimage
 
 # system
 sudo systemctl enable syncthing@bryan.service && sudo systemctl start syncthing@bryan.service
