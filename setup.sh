@@ -22,7 +22,8 @@ neofetch \
 stow \
 samba \
 avahi \
-man-db
+man-db \
+ripgrep
 
 # Check if yay is installed
 if pacman -Q "yay" &> /dev/null; then
@@ -35,9 +36,9 @@ fi
 yay -S --needed \
 todoist-appimage
 
-# system
-sudo systemctl enable syncthing@bryan.service && sudo systemctl start syncthing@bryan.service
-sudo systemctl enable samba.service && sudo systemctl start samba.service
-sudo systemctl enable avahi-daemon.service && sudo systemctl start avahi-daemon.service
+# uncomment this 
+# sudo systemctl enable syncthing@bryan.service && sudo systemctl start syncthing@bryan.service
+# sudo systemctl enable samba.service && sudo systemctl start samba.service
+# sudo systemctl enable avahi-daemon.service && sudo systemctl start avahi-daemon.service
 
 echo "Setup complete!"
