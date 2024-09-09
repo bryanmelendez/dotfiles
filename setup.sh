@@ -41,4 +41,12 @@ todoist-appimage
 # sudo systemctl enable samba.service && sudo systemctl start samba.service
 # sudo systemctl enable avahi-daemon.service && sudo systemctl start avahi-daemon.service
 
+# clone git repos
+# (copy and paste from the repos' readmes)
+# tpm
+# packer
+# fzf
+# gnome theme
+# gtk icons
+
 echo "Setup complete!"
