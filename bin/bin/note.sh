@@ -57,4 +57,4 @@ if [[ $# -eq 1 ]]; then
 	filename=$1
 fi
 
-open_file "/home/bryan/Documents/notes/0-inbox"
+open_file "$HOME/Documents/notes/0-inbox"

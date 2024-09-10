@@ -12,7 +12,6 @@ alias log='/home/bryan/bin/log.sh'
 alias ?='/home/bryan/bin/duck.sh'
 alias get_idf='. $HOME/esp/esp-idf/export.sh'
 alias idf_new_project='. ~/bin/idf_new_project.sh'
-alias pomo='go/bin/pomo'
 
 alias r='ranger'
 
