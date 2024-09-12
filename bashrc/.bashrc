@@ -13,6 +13,7 @@ alias ?='/home/bryan/bin/duck.sh'
 alias get_idf='. $HOME/esp/esp-idf/export.sh'
 alias idf_new_project='. ~/bin/idf_new_project.sh'
 alias study='. ~/bin/study-log.sh'
+alias stats='. ~/bin/study-stats.sh'
 
 alias r='ranger'
 
