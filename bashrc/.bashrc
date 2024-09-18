@@ -15,6 +15,8 @@ alias idf_new_project='. ~/bin/idf_new_project.sh'
 alias study='. ~/bin/study-log.sh'
 alias stats='. ~/bin/study-stats.sh'
 
+alias notes='cd $notes; nvim .'
+
 alias r='ranger'
 
 alias ls='ls --color=auto'
@@ -28,5 +30,6 @@ eval "$(fzf --bash)"
 export sync='/home/bryan/Documents/sync'
 export notes='/home/bryan/Documents/notes'
 export PICO_SDK_PATH=/home/bryan/pico/pico-sdk
+export LATTICE_LISCENSE_FILE="$HOME/lscc/iCEcube2.2020.12/liscense/license_55656.dat"
 
 export EDITOR='nvim'
