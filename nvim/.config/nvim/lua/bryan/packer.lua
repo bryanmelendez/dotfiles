@@ -13,13 +13,13 @@ use {
 
 -- use { "catppuccin/nvim", as = "catppuccin" }
 
-use ({ 
-	'ellisonleao/gruvbox.nvim',
-	as = 'gruvbox',
-	config = function()
-		vim.cmd('colorscheme gruvbox')
-	end
-})
+-- use ({ 
+-- 	'ellisonleao/gruvbox.nvim',
+-- 	as = 'gruvbox',
+-- 	config = function()
+-- 		vim.cmd('colorscheme gruvbox')
+-- 	end
+-- })
 
 -- use {
 --     'maxmx03/solarized.nvim',
@@ -36,6 +36,9 @@ use ({
 --         vim.cmd("colorscheme carbonfox")
 --     end
 -- }
+
+-- Using Packer
+use 'navarasu/onedark.nvim'
 
 use ({
     "christoomey/vim-tmux-navigator",
