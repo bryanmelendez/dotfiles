@@ -1,0 +1,314 @@
+
+==============================================================================
+lspconfig:                                                                  ✅
+
+- `:checkhealth lspconfig` was removed. Use `:checkhealth vim.lsp` instead.
+
+==============================================================================
+luasnip:                                                                  1 ⚠️
+
+luasnip ~
+- ⚠️ WARNING For Variable/Placeholder-transformations, luasnip requires
+      the jsregexp library. See `:help |luasnip-lsp-snippets-transformations`| for advice
+  
+
+==============================================================================
+mason:                                                                   11 ⚠️
+
+mason.nvim ~
+- ✅ OK mason.nvim version v2.2.1
+- ✅ OK PATH: prepend
+- ✅ OK Providers: 
+    mason.providers.registry-api
+    mason.providers.client
+- ✅ OK neovim version >= 0.10.0
+
+mason.nvim [Registries] ~
+- ✅ OK Registry `github.com/mason-org/mason-registry version: 2026-05-18-tough-hubcap` is installed.
+- ✅ OK Registry `SynthesizedRegistrySource` is installed.
+
+mason.nvim [Core utils] ~
+- ✅ OK unzip: `UnZip 6.00 of 20 April 2009, by Info-ZIP, with modifications by Apple Inc.`
+- ⚠️ WARNING wget: not available
+  - ADVICE:
+    - spawn: wget failed with exit code - and signal -. Could not find executable "wget" in PATH.
+
+- ✅ OK curl: `curl 8.7.1 (x86_64-apple-darwin25.0) libcurl/8.7.1 (SecureTransport) LibreSSL/3.3.6 zlib/1.2.12 nghttp2/1.68.0`
+- ✅ OK gzip: `Apple gzip 479`
+- ✅ OK tar: `bsdtar 3.5.3 - libarchive 3.7.4 zlib/1.2.12 liblzma/5.4.3 bz2lib/1.0.8 `
+- ✅ OK bash: `GNU bash, version 3.2.57(1)-release (arm64-apple-darwin25)`
+
+mason.nvim [Languages] ~
+- ⚠️ WARNING Go: not available
+  - ADVICE:
+    - spawn: go failed with exit code - and signal -. Could not find executable "go" in PATH.
+
+- ⚠️ WARNING cargo: not available
+  - ADVICE:
+    - spawn: cargo failed with exit code - and signal -. Could not find executable "cargo" in PATH.
+
+- ⚠️ WARNING luarocks: not available
+  - ADVICE:
+    - spawn: luarocks failed with exit code - and signal -. Could not find executable "luarocks" in PATH.
+
+- ⚠️ WARNING Composer: not available
+  - ADVICE:
+    - spawn: composer failed with exit code - and signal -. Could not find executable "composer" in PATH.
+
+- ⚠️ WARNING PHP: not available
+  - ADVICE:
+    - spawn: php failed with exit code - and signal -. Could not find executable "php" in PATH.
+
+- ⚠️ WARNING npm: not available
+  - ADVICE:
+    - spawn: npm failed with exit code - and signal -. Could not find executable "npm" in PATH.
+
+- ⚠️ WARNING node: not available
+  - ADVICE:
+    - spawn: node failed with exit code - and signal -. Could not find executable "node" in PATH.
+
+- ⚠️ WARNING julia: not available
+  - ADVICE:
+    - spawn: julia failed with exit code - and signal -. Could not find executable "julia" in PATH.
+
+- ✅ OK Ruby: `ruby 2.6.10p210 (2022-04-12 revision 67958) [universal.arm64e-darwin25]`
+- ⚠️ WARNING java: not available
+  - ADVICE:
+    - spawn: java failed with exit code 1 and signal 0. The operation couldn’t be completed. Unable to locate a Java Runtime.
+      Please visit http://www.java.com for information on installing Java.
+
+
+- ⚠️ WARNING javac: not available
+  - ADVICE:
+    - spawn: javac failed with exit code 1 and signal 0. The operation couldn’t be completed. Unable to locate a Java Runtime.
+      Please visit http://www.java.com for information on installing Java.
+
+
+- ✅ OK python: `Python 3.14.5`
+- ✅ OK RubyGem: `3.0.3.1`
+- ✅ OK pip: `pip 26.1.1 from /opt/homebrew/lib/python3.14/site-packages/pip (python 3.14)`
+- ✅ OK python venv: `Ok`
+
+==============================================================================
+mason-lspconfig:                                                            ✅
+
+mason-lspconfig.nvim ~
+- ✅ OK Neovim v0.11
+- ✅ OK mason.nvim v2
+
+==============================================================================
+neo-tree:                                                                   ✅
+
+Dependencies ~
+- ✅ OK nvim-lua/plenary.nvim is installed
+- ✅ OK MunifTanjim/nui.nvim is installed
+
+Optional icons ~
+- nvim-tree/nvim-web-devicons is not installed
+
+Optional preview image support (only need one): ~
+- folke/snacks.nvim is not installed
+- 3rd/image.nvim is not installed
+
+Optional LSP integration for commands (like copy/delete/move/etc.) ~
+- antosha417/nvim-lsp-file-operations is not installed
+
+Optional window picker (for _with_window_picker commands) ~
+- s1n7ax/nvim-window-picker is not installed
+
+Configuration ~
+- ✅ OK Configuration conforms to the neotree.Config.Base schema
+
+==============================================================================
+nvim-treesitter:                                                          1 ❌
+
+Requirements ~
+- ✅ OK Neovim was compiled with tree-sitter runtime ABI version 15 (required >=13).
+- ❌ ERROR tree-sitter-cli not found
+- ✅ OK tar 3.5.3 (/usr/bin/tar)
+- ✅ OK curl 8.7.1 (/usr/bin/curl)
+  curl 8.7.1 (x86_64-apple-darwin25.0) libcurl/8.7.1 (SecureTransport) LibreSSL/3.3.6 zlib/1.2.12 nghttp2/1.68.0
+  Release-Date: 2024-03-27
+  Protocols: dict file ftp ftps gopher gophers http https imap imaps ipfs ipns ldap ldaps mqtt pop3 pop3s rtsp smb smbs smtp smtps telnet tftp
+  Features: alt-svc AsynchDNS GSS-API HSTS HTTP2 HTTPS-proxy IPv6 Kerberos Largefile libz MultiSSL NTLM SPNEGO SSL threadsafe UnixSockets
+
+OS Info ~
+- machine: arm64
+- release: 25.4.0
+- version: Darwin Kernel Version 25.4.0: Thu Mar 19 19:31:09 PDT 2026; root:xnu-12377.101.15~1/RELEASE_ARM64_T8132
+- sysname: Darwin
+
+Install directory for parsers and queries ~
+- /Users/bryan/.local/share/nvim/site
+- ✅ OK is writable.
+- ✅ OK is in runtimepath.
+
+Installed languages     H L F I J ~
+
+  Legend: [H]ighlights, [L]ocals, [F]olds, [I]ndents, In[J]ections ~
+
+==============================================================================
+telescope:                                                          1 ⚠️  1 ❌
+
+Checking for required plugins ~
+- ✅ OK plenary installed.
+- ✅ OK nvim-treesitter installed.
+
+Checking external dependencies ~
+- ❌ ERROR rg: not found. `live-grep` finder will not function without [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) installed.
+- ⚠️ WARNING fd: not found. Install [sharkdp/fd](https://github.com/sharkdp/fd) for extended capabilities
+
+===== Installed extensions ===== ~
+
+==============================================================================
+vim.deprecated:                                                             ✅
+
+- ✅ OK No deprecated functions detected
+
+==============================================================================
+vim.health:                                                               1 ⚠️
+
+System Info ~
+- ✅ OK Up to date (0.12.2)
+- Nvim version: `v0.12.2` 
+- Operating system: Darwin 25.4.0
+- Terminal: vscode 1.120.0
+- $TERM: xterm-256color
+
+Configuration ~
+- ✅ OK no issues found
+
+Runtime ~
+- ✅ OK $VIMRUNTIME: /opt/homebrew/Cellar/neovim/0.12.2/share/nvim/runtime
+
+Performance ~
+- ✅ OK Build type: Release
+
+Remote Plugins ~
+- ✅ OK Up to date
+
+Terminal ~
+- key_backspace (kbs) terminfo entry: `key_backspace=^H`
+- key_dc (kdch1) terminfo entry: `key_dc=\E[3~`
+- $TERM_PROGRAM="vscode"
+- $COLORTERM="truecolor"
+
+External Tools ~
+- ⚠️ WARNING ripgrep not available
+- ✅ OK vim.ui.open: handler found (open)
+- ✅ OK git version 2.50.1 (Apple Git-155) (/usr/bin/git)
+- ✅ OK curl 8.7.1 (/usr/bin/curl)
+  curl 8.7.1 (x86_64-apple-darwin25.0) libcurl/8.7.1 (SecureTransport) LibreSSL/3.3.6 zlib/1.2.12 nghttp2/1.68.0
+  Release-Date: 2024-03-27
+  Protocols: dict file ftp ftps gopher gophers http https imap imaps ipfs ipns ldap ldaps mqtt pop3 pop3s rtsp smb smbs smtp smtps telnet tftp
+  Features: alt-svc AsynchDNS GSS-API HSTS HTTP2 HTTPS-proxy IPv6 Kerberos Largefile libz MultiSSL NTLM SPNEGO SSL threadsafe UnixSockets
+
+==============================================================================
+vim.lsp:                                                                    ✅
+
+- LSP log level : WARN
+- Log path: /Users/bryan/.local/state/nvim/lsp.log
+- Log size: 1 KB
+
+vim.lsp: Active Features ~
+
+vim.lsp: Active Clients ~
+- No active clients
+
+vim.lsp: Enabled Configurations ~
+
+vim.lsp: File Watcher ~
+- file watching "(workspace/didChangeWatchedFiles)" disabled on all clients
+
+vim.lsp: Position Encodings ~
+- No active clients
+
+==============================================================================
+vim.pack:                                                                   ✅
+
+vim.pack: basics ~
+- ✅ OK `vim.pack` is not used
+
+==============================================================================
+vim.provider:                                                             6 ⚠️
+
+Clipboard (optional) ~
+- ✅ OK Clipboard tool found: pbcopy
+
+Node.js provider (optional) ~
+- ⚠️ WARNING `node` and `npm` (or `yarn`, `pnpm`) must be in $PATH.
+  - ADVICE:
+    - Install Node.js and verify that `node` and `npm` (or `yarn`, `pnpm`) commands work.
+
+Perl provider (optional) ~
+- ⚠️ WARNING "Neovim::Ext" cpan module is not installed
+  - ADVICE:
+    - See :help |provider-perl| for more information.
+    - You can disable this provider (and warning) by adding `let g:loaded_perl_provider = 0` to your init.vim
+- ⚠️ WARNING No usable perl executable found
+
+Python 3 provider (optional) ~
+- ⚠️ WARNING No Python executable found that can `import neovim`. Using the first available executable for diagnostics.
+- ⚠️ WARNING Could not load Python :
+  /opt/homebrew/bin/python3 does not have the "neovim" module.
+  /opt/homebrew/bin/python3.14 does not have the "neovim" module.
+  python3.13 not found in search path or not executable.
+  python3.12 not found in search path or not executable.
+  python3.11 not found in search path or not executable.
+  python3.10 not found in search path or not executable.
+  python3.9 not found in search path or not executable.
+  python not found in search path or not executable.
+  - ADVICE:
+    - See :help |provider-python| for more information.
+    - You can disable this provider (and warning) by adding `let g:loaded_python3_provider = 0` to your init.vim
+- Executable: Not found
+
+Python virtualenv ~
+- ✅ OK no $VIRTUAL_ENV
+
+Ruby provider (optional) ~
+- Ruby: 2.6.10
+- ⚠️ WARNING `neovim-ruby-host` not found.
+  - ADVICE:
+    - Run `gem install neovim` to ensure the neovim RubyGem is installed.
+    - Run `gem environment` to ensure the gem bin directory is in $PATH.
+    - If you are using rvm/rbenv/chruby, try "rehashing".
+    - See :help |g:ruby_host_prog| for non-standard gem installations.
+    - You can disable this provider (and warning) by adding `let g:loaded_ruby_provider = 0` to your init.vim
+
+==============================================================================
+vim.treesitter:                                                             ✅
+
+Treesitter features ~
+- Treesitter ABI support: min 13, max 15
+- WASM parser support: false
+
+Treesitter parsers ~
+- ✅ OK Parser: c                         ABI: 15, path: /opt/homebrew/Cellar/neovim/0.12.2/lib/nvim/parser/c.so
+- ✅ OK Parser: lua                       ABI: 15, path: /opt/homebrew/Cellar/neovim/0.12.2/lib/nvim/parser/lua.so
+- ✅ OK Parser: markdown                  ABI: 15, path: /opt/homebrew/Cellar/neovim/0.12.2/lib/nvim/parser/markdown.so
+- ✅ OK Parser: markdown_inline           ABI: 15, path: /opt/homebrew/Cellar/neovim/0.12.2/lib/nvim/parser/markdown_inline.so
+- ✅ OK Parser: query                     ABI: 15, path: /opt/homebrew/Cellar/neovim/0.12.2/lib/nvim/parser/query.so
+- ✅ OK Parser: vim                       ABI: 15, path: /opt/homebrew/Cellar/neovim/0.12.2/lib/nvim/parser/vim.so
+- ✅ OK Parser: vimdoc                    ABI: 15, path: /opt/homebrew/Cellar/neovim/0.12.2/lib/nvim/parser/vimdoc.so
+
+Treesitter queries ~
+- ✅ OK c               folds           /opt/homebrew/Cellar/neovim/0.12.2/share/nvim/runtime/queries/c
+- ✅ OK c               highlights      /opt/homebrew/Cellar/neovim/0.12.2/share/nvim/runtime/queries/c
+- ✅ OK c               injections      /opt/homebrew/Cellar/neovim/0.12.2/share/nvim/runtime/queries/c
+- ✅ OK lua             folds           /opt/homebrew/Cellar/neovim/0.12.2/share/nvim/runtime/queries/lua
+- ✅ OK lua             highlights      /opt/homebrew/Cellar/neovim/0.12.2/share/nvim/runtime/queries/lua
+- ✅ OK lua             injections      /opt/homebrew/Cellar/neovim/0.12.2/share/nvim/runtime/queries/lua
+- ✅ OK markdown        folds           /opt/homebrew/Cellar/neovim/0.12.2/share/nvim/runtime/queries/markdown
+- ✅ OK markdown        highlights      /opt/homebrew/Cellar/neovim/0.12.2/share/nvim/runtime/queries/markdown
+- ✅ OK markdown        injections      /opt/homebrew/Cellar/neovim/0.12.2/share/nvim/runtime/queries/markdown
+- ✅ OK markdown_inline highlights      /opt/homebrew/Cellar/neovim/0.12.2/share/nvim/runtime/queries/markdown_inline
+- ✅ OK markdown_inline injections      /opt/homebrew/Cellar/neovim/0.12.2/share/nvim/runtime/queries/markdown_inline
+- ✅ OK query           folds           /opt/homebrew/Cellar/neovim/0.12.2/share/nvim/runtime/queries/query
+- ✅ OK query           highlights      /opt/homebrew/Cellar/neovim/0.12.2/share/nvim/runtime/queries/query
+- ✅ OK vim             folds           /opt/homebrew/Cellar/neovim/0.12.2/share/nvim/runtime/queries/vim
+- ✅ OK vim             highlights      /opt/homebrew/Cellar/neovim/0.12.2/share/nvim/runtime/queries/vim
+- ✅ OK vim             injections      /opt/homebrew/Cellar/neovim/0.12.2/share/nvim/runtime/queries/vim
+- ✅ OK vimdoc          highlights      /opt/homebrew/Cellar/neovim/0.12.2/share/nvim/runtime/queries/vimdoc
+- ✅ OK vimdoc          injections      /opt/homebrew/Cellar/neovim/0.12.2/share/nvim/runtime/queries/vimdoc
+
