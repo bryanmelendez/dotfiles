@@ -13,5 +13,8 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+export FZF_ALT_C_COMMAND="find $HOME -type d -maxdepth 5 2>/dev/null"
+source <(fzf --zsh)
+
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
