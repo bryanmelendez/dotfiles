@@ -2,12 +2,13 @@ font-family = JetBrains Mono
 font-size = 14
 font-thicken = true
 
+# theme = light:TokyoNight Day,dark:TokyoNight
 theme = light:Everforest Light Med,dark:Everforest Dark Hard
 cursor-style = block
 cursor-style-blink = false
 
 background-opacity = 0.9
-background-blur-radius = 20
+background-blur-radius = 100
 window-padding-x = 16
 window-padding-y = 16
 
