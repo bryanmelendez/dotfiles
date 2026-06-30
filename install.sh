@@ -3,6 +3,19 @@ set -e
 
 DOTFILES="$(cd "$(dirname "$0")" && pwd)"
 
+# Install Homebrew
+if command -v brew >/dev/null 2>&1; then
+  echo "Homebrew already installed, skipping"
+else
+  echo "Installing Homebrew..."
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
+
+# Install apps
+echo "Installing apps..."
+brew install --quiet fzf stow neovim tmux
+brew install --cask --quiet ghostty raycast
+
 # Install oh-my-zsh
 if [ -d "$HOME/.oh-my-zsh" ]; then
   echo "oh-my-zsh already installed, skipping"
